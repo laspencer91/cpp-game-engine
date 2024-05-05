@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\CPP Projects\\cpp-game-engine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1443F685-7651-45E6-A192-A9C589E0DCB9}|cpp-game-engine.vcxproj|solutionrelative:Renderer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T14:12:01.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.hpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Game.hpp",
+              "RelativeDocumentMoniker": "Game.hpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Game.hpp",
+              "RelativeToolTip": "Game.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T14:11:21.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T06:20:44.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shader.hpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.hpp",
+              "RelativeDocumentMoniker": "Shader.hpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.hpp",
+              "RelativeToolTip": "Shader.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T17:18:17.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shader.cpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.cpp",
+              "RelativeDocumentMoniker": "Shader.cpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Shader.cpp",
+              "RelativeToolTip": "Shader.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T17:18:36.8Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 181,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Renderer.cpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.cpp",
+              "RelativeDocumentMoniker": "Renderer.cpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.cpp",
+              "RelativeToolTip": "Renderer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-05T15:16:16.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Renderer.hpp",
+              "DocumentMoniker": "D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.hpp",
+              "RelativeDocumentMoniker": "Renderer.hpp",
+              "ToolTip": "D:\\Development\\CPP Projects\\cpp-game-engine\\Renderer.hpp",
+              "RelativeToolTip": "Renderer.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-05T14:11:54.294Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
