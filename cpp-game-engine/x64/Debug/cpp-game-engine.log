@@ -1,8 +1,46 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (cpp-game-engine\x64\Debug\) contains files shared from another project (mini-game-engine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Game.cpp
-  Renderer.cpp
-  Shader.cpp
-  main.cpp
-  Generating Code...
-  glad.c
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+D:\Development\CPP Projects\cpp-game-engine\Array.hpp(58,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  D:\Development\CPP Projects\cpp-game-engine\Array.hpp(58,12):
+  the template instantiation context (the oldest one first) is
+  	D:\Development\CPP Projects\cpp-game-engine\main.cpp(11,23):
+  	see reference to class template instantiation 'Array<std::string>' being compiled
+  	D:\Development\CPP Projects\cpp-game-engine\Array.hpp(58,5):
+  	while compiling class template member function 'Array<std::string>::Array(std::initializer_list<T>)'
+          with
+          [
+              T=std::string
+          ]
+  		D:\Development\CPP Projects\cpp-game-engine\main.cpp(11,17):
+  		see the first reference to 'Array<std::string>::Array' in 'main'
+  
+D:\Development\CPP Projects\cpp-game-engine\Array.hpp(58,47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Development\CPP Projects\cpp-game-engine\Array.hpp(61,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Development\CPP Projects\cpp-game-engine\Array.hpp(62,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Development\CPP Projects\cpp-game-engine\Array.hpp(131,13): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  D:\Development\CPP Projects\cpp-game-engine\Array.hpp(131,13):
+  the template instantiation context (the oldest one first) is
+  	D:\Development\CPP Projects\cpp-game-engine\Array.hpp(58,5):
+  	while compiling class template member function 'Array<std::string>::Array(std::initializer_list<T>)'
+          with
+          [
+              T=std::string
+          ]
+  		D:\Development\CPP Projects\cpp-game-engine\main.cpp(11,17):
+  		see the first reference to 'Array<std::string>::Array' in 'main'
+  	D:\Development\CPP Projects\cpp-game-engine\Array.hpp(125,1):
+  	while compiling class template member function 'void Array<std::string>::_Resize(void)'
+  		D:\Development\CPP Projects\cpp-game-engine\Array.hpp(88,16):
+  		see the first reference to 'Array<std::string>::_Resize' in 'Array<std::string>::Stack'
+  		D:\Development\CPP Projects\cpp-game-engine\main.cpp(13,18):
+  		see the first reference to 'Array<std::string>::Stack' in 'main'
+  
   cpp-game-engine.vcxproj -> D:\Development\CPP Projects\cpp-game-engine\x64\Debug\cpp-game-engine.exe
