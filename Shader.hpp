@@ -3,6 +3,8 @@
 #ifndef SHADER_H
 #define SHADER_H
 
+#include "Shader.hpp"
+
 #include <iostream>
 
 class Shader

@@ -1,41 +1,44 @@
 #include "Shader.hpp"
+#include "EngineDefaults.hpp"
+#include "Constants.hpp"
 
 #include <glad/glad.h>
 #include <string>
 #include <fstream>
 #include <sstream>
 
-Shader::Shader(const char* vertexPath, const char* fragmentPath)
+Shader::Shader(const char* vertexCode, const char* fragmentCode)
 {
-    std::string vertexCode;
-    std::string fragmentCode;
-    std::ifstream vertexShaderFile;
-    std::ifstream fragmentShaderFile;
-    vertexShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-    fragmentShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    // This was functionality to read shader from the file. It worked properly, but was not easy to bundle shader files with CMAKE.
+    // May come back to it later, so leaving this here.
+    // std::string vertexCode;
+    // std::string fragmentCode;
+    // std::ifstream vertexShaderFile;
+    // std::ifstream fragmentShaderFile;
+    // vertexShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    // fragmentShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
 
-    try
-    {
-        vertexShaderFile.open(vertexPath);
-        fragmentShaderFile.open(fragmentPath);
+    // try
+    // {
+    //     // vertexShaderFile.open(vertexPath);
+    //     // fragmentShaderFile.open(fragmentPath);
 
-        std::stringstream vertShaderStream, fragShaderStream;
-        vertShaderStream << vertexShaderFile.rdbuf();
-        fragShaderStream << fragmentShaderFile.rdbuf();
+    //     // std::stringstream vertShaderStream, fragShaderStream;
+    //     // vertShaderStream << vertexShaderFile.rdbuf();
+    //     // fragShaderStream << fragmentShaderFile.rdbuf();
 
-        vertexShaderFile.close();
-        fragmentShaderFile.close();
+    //     // vertexShaderFile.close();
+    //     // fragmentShaderFile.close();
 
-        vertexCode = vertShaderStream.str();
-        fragmentCode = fragShaderStream.str();
-    }
-    catch (std::ifstream::failure e)
-    {
-        std::cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl;
-    }
-
-    const char* vertexShaderCode = vertexCode.c_str();
-    const char* fragmetShaderCode = fragmentCode.c_str();
+    //     // vertexCode = vertShaderStream.str();
+    //     // fragmentCode = fragShaderStream.str();
+    // }
+    // catch (std::ifstream::failure e)
+    // {
+    //     std::cout << Console::C_RED << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl << "DO NOT INCLUDE SHADER DIRECTORY IN YOUR PATH" << std::endl << vertexPath << std::endl << fragmentPath << Console::C_RESET << std::endl;
+    // }
+    const char* vertexShaderCode = vertexCode;
+    const char* fragmetShaderCode = fragmentCode;
 
     int success;
     char infoLog[512];

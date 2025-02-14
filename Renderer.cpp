@@ -1,4 +1,5 @@
 #include "Renderer.hpp"
+#include "ShaderSource.hpp"
 #include <iostream>
 
 // RENDERING
@@ -17,7 +18,7 @@ Renderer* Renderer::Initialize()
 		-0.6f, -0.5f, 0.0f,
 		-0.6f,  0.5f, 0.0f
 	});
-	r->SetShader(new Shader("default.vshader", "blue.fshader"));
+	r->SetShader(new Shader(Shaders::VERTEX_DEFAULT, Shaders::FRAG_BLUE));
 
 	_renderables.push_back(r);
 
