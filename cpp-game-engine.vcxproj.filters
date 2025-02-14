@@ -37,8 +37,11 @@
     <ClCompile Include="Shader.cpp">
       <Filter>engine\Shaders</Filter>
     </ClCompile>
-    <ClCompile Include="GameObject.cpp">
+    <ClCompile Include="Renderable.cpp">
       <Filter>engine\world</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineDefaults.cpp">
+      <Filter>engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -51,11 +54,14 @@
     <ClInclude Include="Shader.hpp">
       <Filter>engine\Shaders</Filter>
     </ClInclude>
-    <ClInclude Include="GameObject.hpp">
+    <ClInclude Include="Renderable.hpp">
       <Filter>engine\world</Filter>
     </ClInclude>
     <ClInclude Include="Array.hpp">
       <Filter>engine\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineDefaults.hpp">
+      <Filter>engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

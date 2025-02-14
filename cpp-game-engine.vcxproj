@@ -133,8 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EngineDefaults.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Renderable.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Renderer.cpp" />
@@ -142,8 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.hpp" />
+    <ClInclude Include="EngineDefaults.hpp" />
     <ClInclude Include="Game.hpp" />
-    <ClInclude Include="GameObject.hpp" />
+    <ClInclude Include="Renderable.hpp" />
     <ClInclude Include="Renderer.hpp" />
     <ClInclude Include="Shader.hpp" />
   </ItemGroup>

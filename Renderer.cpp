@@ -2,18 +2,24 @@
 #include <iostream>
 
 // RENDERING
-float triangle_vertices[] =
-{
-	-0.5f, -0.5f, 0.0f,
-	 0.5f, -0.5f, 0.0f,
-	 0.0f,  0.5f, 0.0f
-};
+
 
 Renderer* Renderer::Initialize()
 {
-	_defaultShaderProgram = new Shader("default.vshader", "default.fshader");
-	_currentShaderProgram = _defaultShaderProgram;
-	_UpdateVertexBuffers();
+	_renderables.push_back(new Renderable({
+		-0.5f, -0.5f, 0.0f,
+		 0.5f, -0.5f, 0.0f,
+		 0.0f,  0.5f, 0.0f
+	}));
+
+	Renderable* r = new Renderable({
+		-1.0f, -0.5f, 0.0f,
+		-0.6f, -0.5f, 0.0f,
+		-0.6f,  0.5f, 0.0f
+	});
+	r->SetShader(new Shader("default.vshader", "blue.fshader"));
+
+	_renderables.push_back(r);
 
 	return this;
 }
@@ -23,27 +29,16 @@ void Renderer::RenderFrame()
 	glClearColor(0.2f, 0.2f, 0.0f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	glUseProgram(_currentShaderProgram->ID);
-	glDrawArrays(GL_TRIANGLES, 0, 3);
-}
+	for (int i = 0; i < _renderables.size(); i++)
+	{
+		Renderable* renderable = _renderables[i];
 
-void Renderer::SetShader(Shader& _shader)
-{
-	_currentShaderProgram = &_shader;
-}
+		Shader* newShader = renderable->GetShader();
 
-void Renderer::_UpdateVertexBuffers()
-{
-	unsigned int VAO, VBO;
-	glGenVertexArrays(1, &VAO);
-	glGenBuffers(1, &VBO);
-	glBindVertexArray(VAO);
-	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(triangle_vertices), triangle_vertices, GL_STATIC_DRAW);
+		// Updating shader for each object may be a bit much.
+		glUseProgram(renderable->GetShader()->ID);
 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-	glEnableVertexAttribArray(0);
-
-	// The call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
+		renderable->Bind();
+		renderable->Draw();
+	}
 }

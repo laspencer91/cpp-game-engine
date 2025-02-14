@@ -78,6 +78,8 @@ int Array<T>::Stack(T& element)
         _Resize();
     }
     _value[_elementCount++] = element;
+
+    return _elementCount;
 }
 
 template<typename T>
