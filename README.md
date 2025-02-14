@@ -54,6 +54,4 @@ If you encounter any issues:
 
 ## License
 
-[Your license information here]
-
-Would you like me to add any additional sections or details?
+MIT License
